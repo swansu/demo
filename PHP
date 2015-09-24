@@ -1,4 +1,4 @@
-<h2>Sample quiz about fitness?</h2>                        
+<h2>Sample quiz about fitness</h2>                        
        <form name="self" action="quiz.fitness.process.php" method="post">
               <input type="hidden" name="NP" value=""> 
               <ol>
