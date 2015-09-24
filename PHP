@@ -1,0 +1,30 @@
+<h2>Fitness quiz: How much do you know about fitness?</h2>                        
+       <form name="self" action="quiz.fitness.process.php" method="post">
+              <input type="hidden" name="NP" value=""> 
+              <ol>
+                <li>You should aim to exercise every day. You need at least:<br>
+                  <div class="quizindent">
+				    <label for="exercise_a"><input type="radio" name="exercise" id="exercise_a" value="a" tabindex="1">A. 20 minutes of activity</label>
+					<br/>
+					<label for="exercise_b"><input type="radio" name="exercise" id="exercise_b" value="b" tabindex="2">B. 40 minutes of activity </label>
+					<br/>
+					  <label for="exercise_c"><input type="radio" name="exercise" id="exercise_c" value="c" tabindex="3">C. 60 minutes of activity </label>
+				  </div>
+                </li>
+                <li>Physical activity can help with:<br>
+                  <div class="quizindent">
+				    <label for="activity_a"><input type="radio" name="activity" id="activity_a" value="a" tabindex="4">A. Staying a healthy weight</label>
+					<br/>
+					<label for="activity_b"><input type="radio" name="activity" id="activity_b" value="b" tabindex="5">B. Getting better sleep </label>
+					<br/>
+					  <label for="activity_c"><input type="radio" name="activity" id="activity_c" value="c" tabindex="6">C. Building strong bones </label>
+						<br/>
+						<label for="activity_d"><input type="radio" name="activity" id="activity_d" value="d" tabindex="7">D. Helping your mood  </label>
+						<br/>
+						<label for="activity_e"><input type="radio" name="activity" id="activity_e" value="e" tabindex="8">E. All of the above </label>
+				  </div>
+                </li>
+          </ol>
+                    <input type="submit" value="Submit Answers" tabindex="23"><input type="reset" value="Reset" tabindex="24">
+            </form>
+
