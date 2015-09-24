@@ -1,4 +1,4 @@
-<h2>Fitness quiz: How much do you know about fitness?</h2>                        
+<h2>Sample quiz about fitness?</h2>                        
        <form name="self" action="quiz.fitness.process.php" method="post">
               <input type="hidden" name="NP" value=""> 
               <ol>
@@ -9,7 +9,7 @@
 					<label for="exercise_b"><input type="radio" name="exercise" id="exercise_b" value="b" tabindex="2">B. 40 minutes of activity </label>
 					<br/>
 					  <label for="exercise_c"><input type="radio" name="exercise" id="exercise_c" value="c" tabindex="3">C. 60 minutes of activity </label>
-				  </div>
+		  </div>
                 </li>
                 <li>Physical activity can help with:<br>
                   <div class="quizindent">
@@ -22,9 +22,9 @@
 						<label for="activity_d"><input type="radio" name="activity" id="activity_d" value="d" tabindex="7">D. Helping your mood  </label>
 						<br/>
 						<label for="activity_e"><input type="radio" name="activity" id="activity_e" value="e" tabindex="8">E. All of the above </label>
-				  </div>
+		  </div>
                 </li>
           </ol>
-                    <input type="submit" value="Submit Answers" tabindex="23"><input type="reset" value="Reset" tabindex="24">
-            </form>
+          <input type="submit" value="Submit Answers" tabindex="23"><input type="reset" value="Reset" tabindex="24">
+</form>
 
